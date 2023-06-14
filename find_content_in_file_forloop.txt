@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for file in *
+do 
+ if [ $file == "country.txt" ]
+ then
+  cat country.txt
+ fi
+done 
